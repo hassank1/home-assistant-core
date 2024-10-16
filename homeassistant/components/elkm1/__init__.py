@@ -518,7 +518,6 @@ class ElkEntity(Entity):
 
         Currently, this method does not perform any action but serves as an extension point for further development.
         """
-        pass
 
     @callback
     def _element_callback(self, element: Element, changeset: dict[str, Any]) -> None:
